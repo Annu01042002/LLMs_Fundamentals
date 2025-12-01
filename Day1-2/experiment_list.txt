@@ -1,0 +1,61 @@
+🧪 Experiment 1: Temperature
+
+Use a prompt:
+
+“Write a short story about a robot who learns emotions.”
+
+Run it with:
+
+temperature = 0.1 → deterministic
+temperature = 0.7 → creative
+temperature = 1.2 → chaotic / unexpected
+
+👉 Observe:
+How creativity, randomness, and structure change.
+
+
+🧪 Experiment 2: top_p (nucleus sampling)
+
+Use the same prompt:
+
+top_p = 0.1 → limited vocabulary
+top_p = 0.5 → balanced
+top_p = 0.9 → wide creative freedom
+
+👉 Observe differences.
+
+🧪 Experiment 3: top_k
+
+Try:
+
+top_k = 10
+top_k = 50
+top_k = 100
+
+👉 See how restricting the candidate words affects output.
+
+
+🧪 Experiment 4: frequency_penalty
+
+Prompt:
+
+“Explain AI in 3 sentences.”
+
+Use:
+
+frequency_penalty = 0 → repetitions allowed
+
+frequency_penalty = 1 → repetitions reduced
+
+👉 Notice how repeated words vanish.
+
+
+🧪 Experiment 5: Write 3 prompts and compare outputs
+
+Write:
+
+A vague prompt
+A detailed prompt
+A strict structured prompt
+
+Compare clarity, correctness, and consistency.

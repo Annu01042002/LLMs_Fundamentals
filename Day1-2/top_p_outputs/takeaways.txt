@@ -1,0 +1,16 @@
+🎯 Quick takeaway
+
+top_p controls how “wide” the vocabulary pool is:
+
+0.1 → narrow → safe → repetitive → longer
+
+0.5 → moderate → natural → detailed → longest
+
+0.9 → wide → creative → surprising → shorter
+
+
+| top_p   | Words         | What it suggests                                                                 |
+| ------- | ------------- | -------------------------------------------------------------------------------- |
+| **0.1** | **642 words** | Very constrained vocabulary → forced to stay “safe”, repetitive, predictable     |
+| **0.5** | **789 words** | Balanced → allowed more expressive words but still controlled                    |
+| **0.9** | **594 words** | Very creative → uses rare words, jumps ideas, becomes more compact or surprising |

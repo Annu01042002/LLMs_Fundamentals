@@ -1,0 +1,7 @@
+# LLM Fundamentals - Day 1-2 Dependencies
+
+# Google Gemini API client
+google-generativeai>=0.3.0
+
+# Environment variable management
+python-dotenv>=0.19.0

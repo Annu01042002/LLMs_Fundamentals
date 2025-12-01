@@ -1,0 +1,5 @@
+1.  A solar panel is a device that converts sunlight directly into electricity.
+2.  They are made of semiconductor materials, most commonly silicon, arranged in layers within photovoltaic cells. When sunlight (photons) hits these cells, it knocks electrons loose from their atoms.
+3.  The cell's design creates an electric field that pushes these free electrons in one direction, forming a direct current (DC). Connecting multiple cells together amplifies this flow of electrons, generating usable power.
+4.  An inverter then converts this DC electricity into alternating current (AC) suitable for household use and sends it to the home's electrical panel.
+5.  This clean energy can power lights, appliances, and even charge electric vehicles.
