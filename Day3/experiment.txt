@@ -1,0 +1,49 @@
+DAY 3 — Tokenization & Embeddings Practice Instructions
+
+Today you will complete 3 simple and clear tasks. Keep everything short and practical.
+
+----------------------------------------------------
+1️⃣ TASK 1 — Generate Embeddings
+----------------------------------------------------
+• Take 3 sentences (two similar, one unrelated)
+• Use Gemini embeddings model: `text-embedding-004`
+• Convert each sentence into embeddings
+• Print the vectors OR just the similarity scores
+
+Goal: Understand how meaning becomes vectors.
+
+----------------------------------------------------
+2️⃣ TASK 2 — Compare Meaning with Cosine Similarity
+----------------------------------------------------
+• Compute similarity between:
+    Sentence 1 ↔ Sentence 2  (similar meaning)
+    Sentence 1 ↔ Sentence 3  (different meaning)
+
+• Observe:
+    High similarity  → similar meaning
+    Low similarity   → different meaning
+
+Goal: See how embeddings capture meaning, not words.
+
+----------------------------------------------------
+3️⃣ TASK 3 — Save Output to Folder
+----------------------------------------------------
+• Create a folder: `outputs_day3/`
+• Save:
+    - All sentences
+    - Similarity scores
+    - Your own notes (1–2 points)
+
+Goal: Build the habit of documenting your LLM experiments.
+
+----------------------------------------------------
+✔ What You Should Learn Today
+----------------------------------------------------
+• What tokens are
+• What embeddings are
+• How sentences become vectors
+• How cosine similarity works
+• How to compare meaning using embeddings
+
+Keep it simple. Don’t overthink.
+Day 3 is about understanding how LLMs “see” meaning.

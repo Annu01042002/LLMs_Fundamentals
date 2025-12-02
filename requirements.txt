@@ -1,0 +1,7 @@
+# LLM Fundamentals - Dependencies
+
+google-generativeai
+python-dotenv
+numpy
+sentence-transformers
+torch
