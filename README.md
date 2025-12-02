@@ -15,13 +15,14 @@ Each folder represents a focused daily module with clear notes, guided practice,
   - Day3/
   - ...
   - DayN/
+  - requirements.txt     # (optional) Python deps for experiments
   - README.md
 
-Each daily folder includes:
-- **Crisp concept explanations**  
-- **Hands-on mini experiments**  
-- **Behavioral observations**  
-- **Short practical tasks**  
+Each daily folder still includes:
+- Crisp concept explanations  
+- Hands-on mini experiments  
+- Behavioral observations  
+- Short practical tasks
 
 ---
 
@@ -73,15 +74,39 @@ These are intentionally small so learners can build confidence quickly.
 
 ---
 
-## 🧪 How to Use This Repository
+## 🧭 How to use this repository (quick start)
 
-1. Open any **DayX** folder  
-2. Read the concept notes  
-3. Perform the guided experiments  
-4. Compare results under different settings  
-5. Document your learnings in your own style  
+1. Clone the repo:
+   - PowerShell / Windows Terminal:
+     git clone https://github.com/Annu01042002/LLMs_Fundamentals.git
+   - Command Prompt:
+     git clone https://github.com/Annu01042002/LLMs_Fundamentals.git
 
-Everything here is designed for **short, powerful, daily progress**.
+2. Change into the repo:
+   cd LLM_Fundamentals
+
+3. (Optional) Create a Python virtual environment and install deps:
+   - PowerShell:
+     python -m venv .venv
+     .\.venv\Scripts\Activate
+     pip install -r requirements.txt
+   - CMD:
+     python -m venv .venv
+     .venv\Scripts\activate.bat
+     pip install -r requirements.txt
+
+4. Open a Day folder, read the experiment list, and run the corresponding notebooks or scripts:
+   - Jupyter:
+     jupyter lab notebooks/
+   - Run a script:
+     python examples/my_demo.py
+
+5. Experiment, document findings, and contribute:
+   - Add issues or PRs with improvements, experiments, or new days.
+
+Notes:
+- If requirements.txt is not present, follow the README inside the specific DayX folder for environment instructions.
+- Replace the clone URL with the repository path you use (GitHub, local server, etc.).
 
 ---
 
@@ -97,4 +122,3 @@ If you find this useful, consider starring the repo to help others discover it!
 Let’s **explore LLM fundamentals together — one day, one concept, one experiment at a time.**
 
 Let’s continue exploring and simplifying the world of LLMs — **one day, one idea, one experiment at a time.**
-```md
