@@ -18,7 +18,7 @@ Summarize the same paragraph using 5 prompting methods:
 ✔ Hallucinations  
 ✔ Consistency  
 
-Outputs are stored in `/outputs`  
+Outputs are stored in `/prompt_outputs`  
 Summary JSON is in `summary.json`
 
 ---
