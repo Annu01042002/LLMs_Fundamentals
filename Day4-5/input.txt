@@ -1,0 +1,1 @@
+Artificial intelligence refers to machines or software that display intelligent behavior such as learning, reasoning, or problem solving. These models can analyze data, make predictions, and improve with training. AI is used in recommendation systems, chatbots, autonomous vehicles, and healthcare decision support.

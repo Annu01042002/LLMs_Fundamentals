@@ -1,0 +1,1 @@
+Artificial intelligence (AI) involves machines or software that display intelligent behavior such as learning, reasoning, and problem-solving. These models analyze data, make predictions, and improve with training, finding use in recommendation systems, chatbots, autonomous vehicles, and healthcare.

@@ -1,0 +1,5 @@
+```json
+{
+  "summary": "Artificial intelligence (AI) describes machines or software capable of intelligent behaviors like learning, reasoning, and problem-solving. These models can analyze data, make predictions, and enhance their performance through training. AI finds applications across various domains including recommendation systems, chatbots, autonomous vehicles, and healthcare decision support."
+}
+```
