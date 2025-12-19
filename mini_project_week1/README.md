@@ -28,21 +28,23 @@ The goal is not to build a production ATS, but to deeply understand:
 
 ## 🏗️ Project Structure
 
+```text
 mini_project_week1/
-- app/
-  - config.py        # Config, env variables, model name
-  - model.py         # Gemini client initialization (google.genai)
-  - resume_parser.py # PDF → text extraction
-  - prompts.py       # Prompt templates
-  - analyser.py      # ResumeAnalyzer logic
-
-- outputs/           # Output after evaluation
-- resumes/           # Resumes to evaluate(pdf files)
-- cli.py             # CLI runner
-- streamlit_app.py   # Streamlit UI
-- main.py            # FastAPI app entry
-- key_takeaways.md   # Takeaways from the project
-- README.md
+├── app/
+│   ├── config.py        # Config, env variables, model name
+│   ├── model.py         # Gemini client initialization (google.genai)
+│   ├── resume_parser.py # PDF → text extraction
+│   ├── prompts.py       # Prompt templates
+│   ├── analyser.py      # ResumeAnalyzer logic
+│   ├── cli.py           # CLI runner
+│   └── streamlit_app.py # Streamlit UI
+├── outputs/             # Output after evaluation
+├── resumes/             # Resumes to evaluate (PDF files)
+├── main.py              # FastAPI app entry
+├── key_takeaways.md     # Takeaways from the project
+├── requirements.txt     # Project dependencies
+└── README.md            # This README
+```
 
 ---
 
