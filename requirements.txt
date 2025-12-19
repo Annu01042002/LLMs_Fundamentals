@@ -1,7 +1,13 @@
 # LLM Fundamentals - Dependencies
 
-google-generativeai
+google-genai
 python-dotenv
 numpy
 sentence-transformers
 torch
+PyPDF2
+fastapi
+python-multipart
+uvicorn
+streamlit
+
